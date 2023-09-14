@@ -8,7 +8,7 @@ describe Solver do
       expect(result).to eq 120
     end
 
-    it 'should return factorial of given number when call factorial method' do
+    it 'should return reverse of given string when call reverse method' do
     	mock_input = 'hello'
       word= Solver.new
       result = word.reverse(mock_input)

@@ -7,5 +7,12 @@ describe Solver do
       result = number.factorial(mock_input)
       expect(result).to eq 120
     end
+
+    it 'should return factorial of given number when call factorial method' do
+    	mock_input = 'hello'
+      word= Solver.new
+      result = word.reverse(mock_input)
+      expect(result).to eq 'olleh'
+    end
   end
 end

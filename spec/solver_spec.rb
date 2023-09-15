@@ -9,8 +9,8 @@ describe Solver do
     end
 
     it 'should return reverse of given string when call reverse method' do
-    	mock_input = 'hello'
-      word= Solver.new
+      mock_input = 'hello'
+      word = Solver.new
       result = word.reverse(mock_input)
       expect(result).to eq 'olleh'
     end
